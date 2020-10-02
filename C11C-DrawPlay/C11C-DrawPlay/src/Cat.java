@@ -23,6 +23,7 @@ public class Cat {
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
 	{
+		int h = 9;
 		Graphics2D g2 = (Graphics2D) g;
 		int x=catX;
 		int y=catY;
